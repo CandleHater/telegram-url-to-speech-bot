@@ -232,19 +232,6 @@ class URLToSpeech {
     }
 }
 
-// DEV
-// new URLToSpeech(
-//     `
-//     https://news.bitcoin.com/bulls-return-120-million-tether-bitcoin-halving/
-//     `,
-//     (message) => new Promise((resolve) => {
-//         console.log(message);
-//         resolve();
-//     }),
-//     console.log
-//     ).process();
-
-
 // Telegraf Telegram Client
 const telegrafClient = new Telegraf(process.env.BOT_TOKEN);
 const loadingEmoji = ['🕛','🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚'];
