@@ -13,7 +13,7 @@ const tts = new textToSpeech.TextToSpeechClient();
 const { Translate } = require('@google-cloud/translate').v2;
 const translate = new Translate();
 
-require('dotenv').load();
+require('dotenv').config();
 
 // logger
 // var logStdout = process.stdout;
