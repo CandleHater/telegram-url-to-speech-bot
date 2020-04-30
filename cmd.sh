@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "# update source"
+git reset --hard HEAD~1
 git pull
 chmod +x cmd.sh
 
