@@ -5,7 +5,7 @@
 3. [Download key file](https://console.cloud.google.com/apis/credentials/serviceaccountkey) (JSON) 
 
 ## Telegram Bot
-1. [Create a Bot]([https://core.telegram.org/bots#3-how-do-i-create-a-bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot))
+1. [Create a Bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
 2. Get the bots token
 
 ## Docker Run
