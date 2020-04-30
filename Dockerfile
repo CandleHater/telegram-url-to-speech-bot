@@ -1,6 +1,7 @@
 FROM node:12
 
 WORKDIR /usr/src/app
+COPY cmd.sh cmd.sh
 
 RUN git clone https://github.com/CandleHater/telegram-url-to-speech-bot.git /tmp/telegram-url-to-speech-bot
 RUN cp -rf /tmp/telegram-url-to-speech-bot/* /usr/src/app
