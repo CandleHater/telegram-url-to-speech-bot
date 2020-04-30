@@ -2,11 +2,11 @@
 
 set -e
 
-# update source
 echo "update source"
 git pull
+chmod +x cmd.sh
 npm install --only=production
 
-# run
+echo "run app"
 export GOOGLE_APPLICATION_CREDENTIALS="/google-keyfile.json"
 node src/app.js
