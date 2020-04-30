@@ -1,12 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-set -e
-
-# update source
-echo "update source"
+echo "# update source"
 git pull
-npm install --only=production
+chmod +x cmd.sh
 
-# run
+npm install --only=production
+echo
+
+echo "# run app"
 export GOOGLE_APPLICATION_CREDENTIALS="/google-keyfile.json"
 node src/app.js
