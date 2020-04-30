@@ -1,19 +1,21 @@
 {
   "name": "telegram-url-to-speech-bot",
-  "version": "1.0.0",
-  "description": "A Telegram bot that reads out text from a provided link.",
+  "author": "CandleHater",
+  "version": "1.0.1",
+  "license": "MIT",
+  "description": "A Telegram bot that reads out text from a provided URL by using Google APIs.",
   "repository": "github:CandleHater/telegram-url-to-speech-bot",
   "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "@google-cloud/text-to-speech": "^2.3.0",
     "@google-cloud/translate": "^5.3.0",
     "cheerio": "^1.0.0-rc.3",
-    "dotenv": "^8.2.0",
-    "request": "^2.88.2",
-    "telegraf": "^3.36.0",
+    "node-fetch": "^2.6.0",
+    "telegraf": "^3.38.0",
     "unfluff": "^3.2.0"
   },
-  "devDependencies": {},
-  "author": "CandleHater",
-  "license": "MIT"
+  "devDependencies": {}
 }
